@@ -31,7 +31,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <GoatsAvail goats={this.state.goats} />
+        <GoatsAvail goats={this.state.goats}/>
         <GoatCorral goats={this.state.goats} freeGoat={this.freeGoat} useGoat={this.useGoat}/>
       </div>
     );
